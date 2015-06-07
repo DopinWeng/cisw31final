@@ -97,7 +97,7 @@
 	</nav>
 	</td>
 	<td align="right" valign="top">
-	<p>"Hello,"<?php if(isset($_SESSION['username'])){echo $_SESSION['username'];}else {echo "guest!";} ?></p> 
+	<p>Hello, <?php if(isset($_SESSION['username'])){echo $_SESSION['username'];}else {echo "guest!";} ?></p>
 	</td>
 </tr>
 </table>

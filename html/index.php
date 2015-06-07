@@ -15,7 +15,7 @@ session_start();
  
 do_html_header();
   
-  echo "please select Service category that you need.";
+  echo "Select a service category.";
 
   $cat_array = get_product_categories(); // get product categories
 
