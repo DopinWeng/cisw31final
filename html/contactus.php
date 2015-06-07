@@ -41,19 +41,19 @@ if ($conn->connect_error) {
 <div align="center">
     <h2>Employee Contact Info</h2>
     <div>
-        <img src="img/paul.png" alt="Paul Chiu" height="200" width="200"> <br>
+        <img src="assets/paul.png" alt="Paul Chiu" height="200" width="200"> <br>
         <a href="aboutus.php#paul">Paul Chiu</a> <br>
         Phone: (626) 555-7271<br>
         email: paul@sugarpadre.com
     </div>
     <div>
-        <img src="img/aaron.png" alt="Aaron Robinson" height="200" width="200"><br>
+        <img src="assets/aaron.png" alt="Aaron Robinson" height="200" width="200"><br>
         <a href="aboutus.php#aaron">Aaron Robinson</a> <br>
         Phone: (909) 555-8281<br>
         email: aaron@sugarpadre.com
     </div>
     <div>
-        <img src="img/dopin.png" alt="Dopin Weng" height="200" width="200"><br>
+        <img src="assets/dopin.jpg" alt="Dopin Weng" height="200" width="200"><br>
         <a href="aboutus.php#dopin">Dopin Weng</a> <br>
         Phone: (626) 555-1258<br>
         email: dopin@sugarpadre.com

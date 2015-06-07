@@ -5,6 +5,7 @@
  * Version: 0.0.1
  */
  include ('fns.php');
+ include ('db_fns.php');
 do_html_header('About Us');
 ?>
 
@@ -25,7 +26,7 @@ do_html_header('About Us');
 <!-- Paul's Profile-->
 <div>
     <a name="paul"></a> <br>
-    <img src="img/paul.png" alt="Paul Chiu" height="200" width="200">
+    <img src="assets/paul.png" alt="Paul Chiu" height="200" width="200">
     <h3>Paul Chiu</h3>
     <p>Hello my name is Paul Chiu and I am one of the members of SugarPADRE.com. <br>
         My expertise is in troubleshooting and fixing computer problems. <br>
@@ -37,7 +38,7 @@ do_html_header('About Us');
 </div>
 <div>
     <a name="aaron"></a> <br>
-    <img src="img/aaron.png" alt="Aaron Robinson" height="200" width="200">
+    <img src="assets/aaron.png" alt="Aaron Robinson" height="200" width="200">
     <h3>Aaron Robinson</h3>
     <p> My name is Aaron and I'm more than happy to be at your service. <br>
         I am more than experienced in the field of home improvement, with my expertise lying in landscaping as well as plumbing. Also, I <br>
@@ -50,7 +51,7 @@ do_html_header('About Us');
 </div>
 <div>
     <a name="dopin"></a> <br>
-    <img src="img/dopin.png" alt="Dopin Weng" height="200" width="200">
+    <img src="assets/dopin.jpg" alt="Dopin Weng" height="200" width="200">
     <h3>Dopin Weng</h3>
     <p> My name is Dopin and I'm more than happy to be at your service. <br>
         I am more than experienced in the field of home improvement, with my <br>

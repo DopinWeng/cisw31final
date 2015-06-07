@@ -2,8 +2,8 @@
 
 function display_admin_menu(){
 	echo '<div id="admin_menu">';
-	do_html_URL("edit_product_category.php","edit skill category");
-	do_html_URL("edit_product.php","edit skills");
+	do_html_URL("edit_product_category.php","Edit service categories");
+	do_html_URL("edit_product.php","Edit services");
 	do_html_URL("edit_employee.php","edit empoloyee");
 	
 	echo '</div>';

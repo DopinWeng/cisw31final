@@ -31,7 +31,7 @@ if(isset($_SESSION['userid'])){
 $orders = get_member_orders($_SESSION['userid']);
 display_member_order_history($orders); //show member orders history
 }else{
-	echo "please Login your account";
+	echo "Please log in to your account";
 	
 }
 
