@@ -24,6 +24,8 @@ do_html_header();
   // display as links to cat pages, we should modify it to our way to display product categories 
   display_categories($cat_array);
 
+
+hello can u see me
   
   
 do_html_footer();
