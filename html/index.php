@@ -7,9 +7,11 @@
  * @project Description 	index pages to show product category
  * @Author					Dopin
  */
- 
 
- include ('fns.php');
+#try to get the services categories and display the services under
+#put a quantity dropdown menu (default 1) and an add to cart button at bottom of page
+
+include ('fns.php');
  
 session_start();
  

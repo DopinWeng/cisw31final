@@ -66,8 +66,6 @@ do_html_header('About Us');
 </body>
 </html>
 
-
-
 <?php
 do_html_footer();
 ?>

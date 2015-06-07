@@ -15,11 +15,12 @@ do_html_header('Contact Us');
 $servername = "localhost";
 $username = "root";
 $password = "cisw31";
+$dbname = "CISW31-1";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-echo "Connected to MySQL";
+echo "Connected to " . $dbname . " database.";
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
