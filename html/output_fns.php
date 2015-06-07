@@ -137,7 +137,7 @@ function display_categories($cat_array)
 
 if(!$cat_array){
 echo "<br / >";
-echo "you don't have category";}
+echo "There are no categories";}
 else{
 echo "<ul>";
 foreach ($cat_array as $row){
@@ -160,7 +160,7 @@ function display_employees($employee_array)
 //print_r ($employee_array);
 if(!$employee_array){
 echo "<br / >";
-echo "cannot find a fit employee";}
+echo "Can't find a fit employee";}
 else{
 echo "<ul>";
 	
@@ -201,7 +201,7 @@ if (is_array($employee)) {
     echo $employee['jobTitle'];
     echo "</li></ul></td></tr></table>";
   } else {
-    echo "<p>The details of this book cannot be displayed at this time.</p>";
+    echo "<p>The details of this employee cannot be displayed at this time.</p>";
   }
   echo "<hr />";
 }
@@ -355,7 +355,7 @@ function select_employee_skills_form($employeeID){
 			<td>Country</td>
 			<td><input type="text" name="country" value="" maxlength="20" size="40"/></td>
 		  </tr>
-		  <tr><th colspan="2" bgcolor="#cccccc">Shipping Address (leave blank if as above)</th></tr>
+		  <tr><th colspan="2" bgcolor="#cccccc">Shipping Address (leave blank if same as above)</th></tr>
 		  <tr>
 			<td>Name</td>
 			<td><input type="text" name="ship_name" value="" maxlength="40" size="40"/></td>
