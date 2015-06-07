@@ -1,7 +1,7 @@
 <?php
 
 function db_connect() {
-   $result = new mysqli('localhost', 'root', 'asdf', 'cisw31');
+   $result = new mysqli('localhost', 'root', 'cisw31', 'cisw31');
    if (!$result) {
       return false;
    }

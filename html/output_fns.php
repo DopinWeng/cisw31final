@@ -86,13 +86,13 @@
 	<nav>
 	 <a href ="index.php">Home</a>|
 	 <a href ="aboutus.php">About Us</a>|
-	 <a href ="">Contact Us</a>|
-	 <a href ="">Services</a>|
+	 <a href ="contactus.php">Contact Us</a>|
+	 <a href ="services.php">Services</a>|
 	 <?php
 	 if( isset($_SESSION['username'])){
-	 echo '<a href ="logout.php">logout</a>|';
+	 echo '<a href ="logout.php">Log out</a>|';
 	 echo '<a href ="member.php"> Member</a>';
-	 }else { echo '<a href ="login.php">login</a>';}
+	 }else { echo '<a href ="login.php">Log in</a>';}
 	 ?>
 	</nav>
 	</td>
@@ -112,6 +112,11 @@
 function do_html_footer() {
   // print an HTML footer
 ?>
+  <div align="center">
+      <p>
+          <a href="#top">Back to top</a>
+      </p>
+  </div>
   </body>
   </html>
 
